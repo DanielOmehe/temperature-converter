@@ -1,17 +1,18 @@
 {
     "lang": "en-us",
     "name": "Temperature converter app",
-    "short_name": "Temperature converter",
+    "short_name": "converter",
     "description": "A basic temperature converter application that can convert to and from Celsius, Kelvin, and Fahrenheit",
     "start_url": "/",
-    "background_color": "#2f3d58",
-    "theme_color": "#2f3d58",
-    "orientation": "any",
+    "background_color": "#0da2ff",
+    "theme_color": "#2fbebe",
+    "orientation": "portrait",
     "display": "standalone",
     "icons": [
         {
             "src": "./temperature.svg",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "type": "images/svg"
         }
     ]
 }
